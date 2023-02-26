@@ -7,7 +7,7 @@ import os
 
 FILE_DIR=os.path.dirname(os.path.abspath(__file__))
 PARENT_DIR=os.path.join(FILE_DIR,os.pardir)
-dir_of_interest=os.path.join(PARENT_DIR, "proj_2")
+dir_of_interest=os.path.join(PARENT_DIR, "Task1")
 IMAGE_PATH=os.path.join(dir_of_interest,"newyork.jpg")
 DATA_PATH=os.path.join(dir_of_interest,"toy_dataset.csv")
 
